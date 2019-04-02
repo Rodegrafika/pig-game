@@ -16,7 +16,9 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -66,7 +68,7 @@ body {
     text-align: center;
     font-size: 80px;
     font-weight: 100;
-    color: #EB4D4D;
+    color: #659999;
     margin-bottom: 130px;
 }
 
@@ -77,14 +79,14 @@ body {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    color: #659999;
     top: -7px;
     right: 10px;
     
 }
 
 .player-current-box {
-    background-color: #EB4D4D;
+    background-color: #659999;
     color: #fff;
     width: 40%;
     margin: 0 auto;
@@ -153,7 +155,7 @@ button:focus {
 }
 
 i {
-    color: #EB4D4D;
+    color:   #659999;
     display: inline-block;
     margin-right: 15px;
     font-size: 32px;
@@ -166,7 +168,7 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 350px;}
 .btn-hold { top: 390px;}
-.btn-score { top: 520px;}
+.btn-score { top: 530px;}
 
 .dice {
     position: absolute;
