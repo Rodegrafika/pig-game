@@ -2,6 +2,8 @@
 
 Dice game crate in Javascript as a part of a JavaScript online course with Jonas Schmedtmann (Udemy)
 
+Play live: https://rodegrafika.github.io/pig-game/
+
 
 GAME RULES:
 
